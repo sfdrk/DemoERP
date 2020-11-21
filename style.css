@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Volkhov&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Goldman:wght@700&family=Volkhov&display=swap');
+@import "node_modules/font-awesome/less/font-awesome.less";
+body{
+    overflow-x: hidden;
+}
+.row-first {
+    height:99vh;
+}
+.margin-13{
+    margin-top:13vh;
+}
+.overflow{
+    overflow-x: hidden;
+}
+.padding-top-10{
+    padding-top:10vh;
+}
+.bg-white{
+    background-color:white;
+}
+.word-16{
+    word-spacing:10px;
+}
+.word-3{
+    word-spacing:3px;
+}
+.bg-light-blue{
+    background-color:#f7f9fb !important;
+}
+.background-blue{
+    background-color:#597FF5 !important;
+}
+.bg-demo{
+    background-color:#f9fafb;
+}
+.font-20{
+    font-size:20px;
+}
+.font-offwhite{
+    color:#ffffffb3;
+}
+.font-Volkhov{
+    font-family: 'Volkhov', serif;
+}
+.home-image img{
+    width:90%;
+}
+.margin-left-35px{
+    margin-left:-35px;
+}
+.font-popins{
+     font-family: 'Poppins', sans-serif;
+}
+.height-12vh{
+    height:12vh;
+}
+.padding-top-15{
+    padding-top:15px;
+}
+.font-32{
+    font-size:32px;
+}
+.font-56{
+font-size:56px;
+}
+.height-5vh{
+    height:5vh;
+}
+.card-style{
+        margin-left: 4rem;
+    margin-top: 6rem;
+}
+.padding-top-15{
+    padding-top:15px;
+}
+.padding-top-8{
+    padding-top:8rem;
+}
+.color-white{
+    color:white;
+}
+.paddding-top-2vh{
+    padding-top:2vh;
+}
+.padding-left-21vh{
+        padding-left:21vh;
+}
+.height-40{
+height:40vh;
+}
+.padding-left-14{
+    padding-left:14rem;
+}
+.padding-top-3{
+padding-top:3rem;
+}
+.height-30{
+    height:30vh;
+}
+.home-caption{
+    font-size:56px;
+    color:white;
+     font-family: 'Poppins', sans-serif;
+     font-weight:700;
+}
+.height-18vh{
+    height:18vh;
+}
+.input-1{
+     width: 22rem;
+    height: 3rem;
+    background-color: #E3F1FE !important;
+    border-radius: 25px;
+    outline:none;
+    border:none;
+    padding-left:22px;
+}
+.home-button{
+    width: 13rem;
+    height: 3rem;
+    font-size:20px;
+    font-weight:bold;
+    background-color:#597FF5 !important;
+    outline:none;
+    border:none;
+    border-radius:25px;
+    color:white;
+}
+.card{ 
+    height:49vh;
+    /* transition: transform .2s; */
+}
+.card:hover {
+    background-color:white !important;
+    transform: scale(0.5); 
+    /* box-shadow:2px 2px 2px 2px blue; */
+    
+}
+.card:hover{
+    /* transform: scale(1.5); */
+     transition: all .5s cubic-bezier(.165,.84,.44,1);
+    /* transition-property: transform,box-shadow; */ */
+    overflow: hidden;
+}
+.features{
+    font-size:27px;
+    color:#687086;
+
+}
+.logo img{
+    width:15%;
+}
+.yo:hover {
+    display:block;
+}
+.arrow{
+      height: 23vh;
+    width: 40vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.arrow img{
+    width:10%;
+}
+.row-2{
+    height:60vh;
+}
+.grow{
+    font-weight:bolder;
+    font-size:6rem;
+}
+.request{
+    height:5rem;
+    width:25rem;
+    outline:none;
+    border:none;
+    background-color:#597FF5 !important;
+    color:white;
+    font-size:2rem;
+    border-radius:50px;
+    margin-left:5rem;
+}
+.brand{
+    font-size: 2rem;
+    color:white;
+    height:10vh;
+    display:flex;
+    align-items:center;
+}
+.navbar-nav li{
+    padding-left:20px;
+    padding-right:20px;
+    font-size:25px;
+     color:#597FF5 !important;
+     font-weight:bold;
+     font-family: 'Poppins', sans-serif;
+}
+.navbar {
+        margin-left: 30rem;
+        height:10vh;
+}
+
+.forms div{
+    padding-top:25px;
+    padding-bottom:25px;
+}
+.input-form{
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid white;
+    width: 75vh;
+    height: 5vh;
+    font-size: 2vh;
+    color: white;
+    outline:none;
+}
+.d-j-f{
+    display:flex;
+    justify-content:center;
+}
+.forms-button{
+     height:5rem;
+    width:25rem;
+    outline:none;
+    border:none;
+    background-color:white!important;
+    color:#597FF5 !important;
+    font-size:2rem;
+    border-radius:50px;
+    margin-left:5rem;
+    }
+    .icon-style{
+     font-size: 4vh;
+    color: white;
+    }
+    .footer{
+      display: flex;
+    align-items: center;
+    justify-content: space-around;
+    }
+    .icons ion-icon{
+        padding-left:10px;
+        padding-right:10px;
+    }
+    .home-icons ion-icon,
+    .home2-icons ion-icon{
+        margin-right:74px;
+        margin-bottom:30px;
+    }
